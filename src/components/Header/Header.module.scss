@@ -1,0 +1,61 @@
+.header {
+    z-index: 10;
+    top: -1px;
+    margin: 0 auto;
+    height: 300px;
+  }
+  
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .upperHeader {
+    max-height: 48px;
+    background-color: rgba(247, 235, 229, 1);
+  }
+  
+  .lowerHeader {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; /* Выравнивание по нижнему краю */
+    height: 160px;
+    background-color: rgba(247, 235, 229, 0.8); /* Прозрачный фон */
+  }
+  
+  .navList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navItem {
+    margin-right: 30px; /* Отступ между элементами navItem */
+    padding-top: 55px;
+  }
+  
+  .subNavList {
+    list-style: none;
+    display: flex;
+  }
+  
+  .subNavItem {
+    margin-left: 5px; /* Отступ между элементами subNavItem */
+  }
+  
+  .text {
+    font-family: 'Proxima';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(0, 0, 0, 0.79);
+  }
+
+  .navItemRight {
+    margin-left: 30px; /* Отступ между элементами navItem */
+    padding-top: 55px;
+  }
