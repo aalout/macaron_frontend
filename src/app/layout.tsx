@@ -23,7 +23,7 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-    title: "Интернет Магазин",
+    title: "Macaron shop",
     description: "Проект 1",
 };
 

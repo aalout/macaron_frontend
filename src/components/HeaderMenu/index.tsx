@@ -11,16 +11,16 @@ export default function HeaderMenu() {
     <nav className={styles.nav}>
       <ul className={styles.navList}>
         <li className={styles.navListItem}>
-          <Link className={styles.text} href="#">Гарантия свежести</Link>
+          <Link className={styles.texta} href="#">Гарантия свежести</Link>
         </li>
         <li className={styles.navListItem}>
-          <Link className={styles.text} href="/about">Доставка и оплата</Link>
+          <Link className={styles.texta} href="/about">Доставка и оплата</Link>
         </li>
         <li className={styles.navListItem}>
-          <Link className={styles.text} href="#">Оптовые поставки</Link>
+          <Link className={styles.texta} href="#">Оптовые поставки</Link>
         </li>
         <li className={styles.navListItem}>
-          <Link className={styles.text} href="#">Контакты</Link>
+          <Link className={styles.texta} href="#">Контакты</Link>
         </li>
       </ul>
 

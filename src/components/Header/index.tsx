@@ -9,11 +9,7 @@ import styles from './Header.module.scss';
 function Header() {
   return (
     <header className={styles.header}>
-      <div className={styles.wrapper}>
-        <div className={styles.upperHeader}>
           <HeaderMenu />
-        </div>
-      </div>
       <nav className={styles.lowerHeader}>
           <ul className={styles.navList}>
             <li className={styles.navItem}>

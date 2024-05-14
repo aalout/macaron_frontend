@@ -13,6 +13,11 @@ $font-roboto: var(--font-roboto);
 }
 
 @font-face {
+	font-family: 'Montserrat light'; 
+	src: url(./../../public/fonts/Montserrat-Light.ttf); 
+}
+
+@font-face {
 	font-family: 'Proxima'; 
 	src: url(./../../../Proxima-Nova/proximanova_regular.ttf); 
 }
