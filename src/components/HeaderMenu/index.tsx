@@ -49,12 +49,12 @@ export default function HeaderMenu() {
         </li>
         <li className={styles.navListItemRight}>
             <ul className={styles.listPlace}>
-            <li className={styles.listItemPlace}><Image
+            <li className={styles.listItemPlace}><Link href="#"><Image
                 width={24}
                 height={24}
                 src="/assets/icons/bag.png"
                 alt="bag"
-            /></li>
+            /></Link></li>
             <li className={styles.listItemPlace}><Link className={styles.text} href="#">В корзине (0 товара)</Link></li>
             </ul>
         </li>
