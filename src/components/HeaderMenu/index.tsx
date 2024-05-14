@@ -8,7 +8,6 @@ export default function HeaderMenu() {
   return (
     <div className={styles.header_con}>
 
-    <nav className={styles.nav}>
       <ul className={styles.navList}>
         <li className={styles.navListItem}>
           <Link className={styles.texta} href="#">Гарантия свежести</Link>
@@ -80,7 +79,6 @@ export default function HeaderMenu() {
                 alt="ok"
             /></li>
             </ul>
-    </nav>
     </div>
   );
 }
