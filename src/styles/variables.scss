@@ -19,12 +19,12 @@ $font-roboto: var(--font-roboto);
 
 @font-face {
 	font-family: 'Proxima'; 
-	src: url(./../../../Proxima-Nova/proximanova_regular.ttf); 
+	src: url(./../../public/fonts/Proxima-Nova/proximanova_regular.ttf); 
 }
  
 @font-face {
 	font-family: 'Proxima bold'; 
-	src: url(./../../../Proxima-Nova/proximanova_bold.otf); 
+	src: url(./../../public/fonts/Proxima-Nova/proximanova_bold.otf); 
 }
 
 // Colors
