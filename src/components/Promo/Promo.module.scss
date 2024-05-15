@@ -67,3 +67,30 @@
   .dot:hover {
     background-color: #FF4D6D;
   }
+
+@media (max-width: 2500px) {
+  .arrows {
+    transform: translateY(50%);
+    width: 58%;
+  }
+}
+
+@media (max-width: 2200px) {
+  .arrows {
+    transform: translateY(50%);
+    width: 70%;
+  }
+}
+
+@media (max-width: 1800px) {
+  .arrows {
+    transform: translateY(50%);
+    width: 100%;
+  }
+}
+
+@media (max-width: 1250px) {
+  .promo {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

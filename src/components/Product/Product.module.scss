@@ -34,3 +34,9 @@
     font-family: 'Montserrat';
     font-style: normal;
 }
+
+@media (max-width: 1250px) {
+  .product {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

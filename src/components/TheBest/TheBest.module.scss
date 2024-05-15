@@ -64,3 +64,9 @@
     font-family: 'Proxima';
     font-style: normal;
 }
+
+@media (max-width: 1250px) {
+  .best {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

@@ -77,3 +77,9 @@
     padding-top: 4px;
     margin-left: 10px;
   }
+
+  @media (max-width: 1250px) {
+    .listSocial {
+      display: none;
+    }
+  }
